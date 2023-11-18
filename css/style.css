@@ -1,4 +1,3 @@
-
 .reelSkills {
   opacity: 1;
 }
@@ -30,7 +29,7 @@
   justify-content: end;
   width: 375px;
   height: 100%;
-  background: #f9532d
+  background: #f9532d;
   animation-name: loadC;
   animation-duration: 2s;
   animation-timing-function: ease-out;
@@ -109,11 +108,11 @@
   font-size: 16px;
   color: #2f002c;
   pointer-events: none;
-  transition: .5s;
+  transition: 0.5s;
 }
 
-.user-box input:focus~label,
-.user-box input:valid~label {
+.user-box input:focus ~ label,
+.user-box input:valid ~ label {
   top: -20px;
   left: 0;
   color: #2f002c;
@@ -130,19 +129,15 @@ form a {
   text-decoration: none;
   text-transform: uppercase;
   overflow: hidden;
-  transition: .5s;
+  transition: 0.5s;
   margin-top: 40px;
-  letter-spacing: 3px
+  letter-spacing: 3px;
 }
 
 a:hover {
   transform: scale(1.1);
   box-shadow: 0 0 24px 0;
 }
-
-
-
-
 
 /* @import url("https://fonts.googeapis.com/css?family=Poppins: 200,300,400,500,600,700,800,900&dsplay=swap");
 * {
@@ -341,7 +336,6 @@ body {
 } */
 
 /* ontheSecondSection */
-
 
 /* .boxRandon {
   position: relative;
