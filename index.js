@@ -14,3 +14,20 @@ darkModeToggle.addEventListener("change", () => {
     localStorage.setItem("darkMode", "disabled");
   }
 });
+
+const submitButton = document.getElementById("submitForm");
+
+submitButton.addEventListener("click", function () {
+  const name = document.getElementsByName("name")[0].value;
+  const email = document.getElementsByName("email")[0].value;
+  const message = document.getElementsByName("message")[0].value;
+
+  const mailtoLink =
+    "mailto:cvamorocamson@gmail.com?subject=Message from " +
+    " " +
+    name +
+    "&body=" +
+    encodeURIComponent(message);
+
+  window.location.href = mailtoLink;
+});
