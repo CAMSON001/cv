@@ -18,7 +18,7 @@
     <header class="container">
       <div class="page-header">
         <div class="logo">
-          <a href="intro.html">VAMORO</a>
+          <a href="index.html">VAMORO</a>
         </div>
         <input type="checkbox" id="click" />
 
@@ -28,7 +28,7 @@
           </div>
         </label>
         <ul>
-          <li><a href="intro.html" style="--navAni: 1">Home</a></li>
+          <li><a href="index.html" style="--navAni: 1">Home</a></li>
           <li><a href="work.html" style="--navAni: 4">Work</a></li>
           <li><a href="#" class="active" style="--navAni: 5">Contact</a></li>
         </ul>
@@ -53,8 +53,9 @@
               <label>Email</label>
             </div>
             <div class="user-box">
-              <input required="true" name="message" type="text" />
-              <label>Let me a message</label>
+              <!-- <input required="true" name="message" type="text" /> -->
+              <textarea required="true" name="message" id="message"></textarea>
+              <label style="padding: 10px ;">Let me a message</label>
             </div>
             <a href="#" id="submitForm">Submit</a>
           </form>

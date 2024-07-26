@@ -100,6 +100,18 @@
   background: transparent;
 }
 
+.user-box textarea{
+  width: 100%;
+  padding: 10px 10px;
+  font-size: 16px;
+  color: #2f002c;
+  margin-bottom: 30px;
+  border: none;
+  border: 1px solid #2f002c;
+  outline: none;
+  background: transparent;
+}
+
 .user-box label {
   position: absolute;
   top: 0;
